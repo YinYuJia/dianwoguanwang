@@ -1,0 +1,647 @@
+body,
+html {
+    width: 100%;
+    min-width:1060px;
+}
+
+
+/* ----------------------------------logo start---------------------------------- */
+
+.firstBox-logo {
+    height: 74px;
+    background-color: #00022b;
+}
+
+.logo {
+    height: 74px;
+    width: 200px;
+    display: flex;
+    display: -webkit-flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo img {
+    float: left;
+    width: 97px;
+    height: 50px;
+    animation: opcity 3s 1;
+    -webkit-animation: opcity 3s 1;
+    -ms-animation: opcity 3s 1;
+    -o-animation: opcity 3s 1;
+    -moz-animation: opcity 3s 1;
+}
+
+@keyframes opcity {
+    0%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1
+    }
+}
+
+
+/*  --------------------------------------------------logo end--------------------------------- */
+
+
+/* --------------------------------------------------banner start ----------------------------*/
+
+.secondBox-banner {
+    /* height: 600px; */
+    width: 100%;
+}
+
+.slider {
+    height:573px;
+    width: 100%;
+    position: relative
+}
+
+.slider .slider-li {
+    display: none;
+    position: absolute;
+}
+
+.slider-ul {
+    width: 100%;
+}
+.slider-ul img {
+    width: 100%;
+    /* height: 600px; */
+}
+
+.slider li:first-child {
+    display: block;
+}
+
+.slider-ul1 {
+    position: absolute;
+    left: 50%;
+    top: 87%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    z-index: 999;
+    height: 50px;
+    width: 185px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, .7);
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+}
+
+.slider-ul1 .slider-li1 {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.slider-ul1 .slider-li1:nth-child(1) {
+    width: 50px;
+}
+
+
+/* ---------------------------------------------banner end---------------------------------- */
+
+
+/* -----------------------------------------------bigDate start----------------------------- */
+
+.thirdBox-bigDate {
+    height: 700px;
+    width: 100%;
+    background-color: white;
+}
+
+.bigDate .up {
+    text-align: center;
+    height: 250px;
+    overflow: hidden;
+}
+
+.up h2 {
+    margin-top: 30px;
+    font-size: 36px;
+    color: black;
+    line-height: 40px;
+}
+
+.bigDate .up h4 {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 40px;
+}
+
+.bigDate .up .line {
+    position: relative;
+    width: 360px;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+}
+
+.bigDate .up .line:before {
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    content: '';
+    width: 60px;
+    border: 2px solid #ff8d00;
+}
+
+.bigDate .up .content {
+    margin: 0 auto;
+    width: 580px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.bigDate .down {
+    height: 450px;
+    /* background-color: red; */
+}
+
+.bigDate .down ul {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+}
+
+.bigDate .down ul li {
+    width: 275px;
+    height: 400px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.li1 {
+    opacity: 0;
+    -webkit-opacity: 0;
+    transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+.li2{
+    opacity: 0;
+    -webkit-opacity: 0;
+    transition: all .5s linear .1s;
+    -webkit-transition: all .5s linear .1s;
+    transform: translateX(-287px);
+    -webkit-transform: translateX(-287px);
+}
+.li3 {
+    opacity: 0;
+    -webkit-opacity: 0;
+    transition: all .5s linear .1s;
+    -webkit-transition: all .5s linear .1s;
+    transform: translateX(-574px);
+    -webkit-transform: translateX(-574px);
+}
+.li4 {
+    opacity: 0;
+    -webkit-opacity: 0;
+    transition: all .5s linear .1s;
+    -webkit-transition: all .5s linear .1s;
+    transform: translateX(-861px);
+    -webkit-transform: translateX(-861px);
+}
+
+.bigDate .down ul li span {
+    position: relative;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: block;
+    height: 270px;
+    width: 100%;
+    background-image: -moz-radial-gradient(150px at center, white, #ecf6ff);
+    background-image: -webkit-radial-gradient(150px at center, white, #ecf6ff);
+    background-image: -ms-radial-gradient(150px at center, white, #ecf6ff);
+    background-image: -o-radial-gradient(150px at center, white, #ecf6ff);
+    background-image: radial-gradient(150px at center, white, #ecf6ff);
+}
+
+.bigDate .down ul li span img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.bigDate .down ul li h3 {
+    font-size: 20px;
+    color: black;
+    line-height: 70px;
+}
+
+.bigDate .down ul li p {
+    font-size: 16px;
+}
+
+
+/* ----------------------------------------------------bigDate end -------------------------*/
+
+
+/* -------------------------------------PlatformAdvantage start -----------------------*/
+
+.foruthBox-PlatformAdvantage {
+    height: 700px;
+    width: 100%;
+    background-image: url('../images/PlatformAdvantage/PlatformAdvantage-backgroundimage.png');
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+}
+
+.PlatformAdvantage {
+    color: white;
+}
+
+.PlatformAdvantage h2 {
+    color: white;
+}
+
+.PlatformAdvantage-down {
+    height: 450px;
+}
+
+.PlatformAdvantage-down ul {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PlatformAdvantage-down ul li {
+    text-align: center;
+    height: 200px;
+    width: 160px;
+    margin: 85px 35px;
+
+}
+
+.PlatformAdvantage-down ul li img {
+    margin: 0 auto;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+.PlatformAdvantage-down ul li img:hover {
+   transform: scale(1.3);
+   -webkit-transform: scale(1.3);
+}
+
+.info {
+    margin-top: 35px;
+    font-size: 24px;
+}
+
+
+/* -------------------------------------PlatformAdvantage end -----------------------*/
+
+
+/* -------------------------------------mediaPlatform start -------------------------*/
+
+.fifth-mediaPlatform {
+    height: 800px;
+    width: 100%;
+    background-image: url('../images/mediaPlatform/mediaPlatform.png');
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    position: relative;
+}
+
+.mediaPlatform-down {
+    height: 550px;
+    width: 100%;
+    position: relative;
+}
+
+#img {
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+}
+.flexbox1 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content:center;
+}
+.flexbox2 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content:center;
+}
+.flexbox3 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content:center;
+}
+@keyframes rotate {
+    0%{
+        transform: rotateY(0deg)
+    }
+    50%{
+        transform: rotateY(360deg)
+    }
+   100%{
+    transform: rotateY(0deg)
+   }
+}
+.mediaPlatform-down .p1,.p2,.p3 {
+    width: 130px;
+    height: 45px;
+    border: 1px dashed white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 28px;
+    /* position: absolute; */
+}
+.p1 {
+   margin-left: -793px;
+   margin-top: 100px;
+}
+.p2 {
+    margin-left: -987px;
+    margin-top: 178px;
+}
+.p3 {
+   margin-left: -912px;
+    margin-top: 347px;
+} 
+
+/* -------------------------------------mediaPlatform 媒体平台 end-------------------------*/
+
+
+
+
+ /* ----------------------------------trading flatform 广告交易平台  start --------------- */
+
+.tradingFlatform-down {
+    margin-top: -43px;
+    height: 450px;
+    /* background-color: red; */
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+}
+.left,.right {
+    width: 570px;
+    height: 400px;
+    /* border:1px solid yellow; */
+    margin-left: 30px;
+    margin-right: 30px;
+    overflow: hidden;
+}
+.left .img1 {
+    width: 560px;
+    height: 400px;
+}
+.Content {
+    font-size: 28px;
+    color: black;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 40%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+/* ----------------------------------trading flatform 广告交易平台  end --------------- */
+
+
+/* ----------------------------------wechat-vertical-promotion 微信垂直推广 start ------------------------*/
+.wechat-vertical-promotion {
+    height: 800px;
+    width: 100%;
+    background-image: url('../images/wechatVerticalPromotion/wechatVerticalPromotion-backgroundImage.png');
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    position: relative;
+}
+.wechat-vertical-promotion-left,
+.wechat-vertical-promotion-right {
+    color: white;
+    height:500px;
+    /* border:1px solid yellow; */
+    width: 550px;
+    overflow: none;
+}
+.wechat-vertical-promotion-left-h2 {
+    font-size: 52px;
+    color: white;
+    line-height: 80px;
+    font-family: "黑体";
+    margin-top: 60px;
+    transform: translateX(-700px);
+    -webkit-transform: translateX(-700px);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.wechat-vertical-promotion-left-h3 {
+    font-size: 32px;
+    font-family: "黑体";
+    line-height: 80px;
+    color: #36eefe;
+    transform: translateX(-700px);
+    -webkit-transform: translateX(-700px);
+    transition: all 1s .5s;
+    -webkit-transition: all 1s .5s;
+}
+
+.wechat-vertical-promotion-left-li {
+     display: flex;
+     display: -webkit-flex;
+     justify-content: flex-start;
+     margin-top: 10px;
+}
+.wechat-vertical-promotion-left-li:nth-child(1) {
+    transform: translateX(-700px);
+    -webkit-transform: translateX(-700px);
+    transition: all 1s 1s;
+    -webkit-transition: all 1s 1s;
+}
+.wechat-vertical-promotion-left-li:nth-child(2) {
+    transform: translateX(-700px);
+    -webkit-transform: translateX(-700px);
+    transition: all 1s 1.2s;
+    -webkit-transition: all 1s 1.2s;
+}
+.wechat-vertical-promotion-left-li:nth-child(3) {
+    transform: translateX(-700px);
+    -webkit-transform: translateX(-700px);
+    transition: all 1s 1.4s;
+    -webkit-transition: all 1s 1.4s;
+}
+.wechat-vertical-promotion-left-li:nth-child(4) {
+    transform: translateX(-700px);
+    -webkit-transform: translateX(-700px);
+    transition: all 1s 1.6s;
+    -webkit-transition: all 1s 1.6s;
+}
+.wechat-vertical-promotion-left-li-img {
+    width: 40px;
+    height: 40px;
+}
+.wechat-vertical-promotion-left-li-span {
+    display: inline-block;
+    line-height: 40px;
+    font-size: 24px;
+    margin-left: 20px;
+} 
+.wechat-vertical-promotion-right-img {
+    position: relative;
+    z-index: 999;
+    width: 550px;
+}
+
+/* ----------------------------------wechat-vertical-promotion 微信垂直推广 end ------------------------*/
+
+/* -----------------------------Data-management-flatform 数据管理平台 start--------------------- */
+
+.Data-management-flatform {
+    height: 750px;
+    width: 100%;
+    background-color: #11162c;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    position: relative;
+}
+.Data-management-flatform-down {
+    height: 490px;
+    /* background-color: red; */
+    position: relative;
+}
+.Data-management-flatform-down-img1 {
+    margin: 0 auto;
+}
+.Data-management-flatform-down-img2 {
+    margin: 40px auto;
+}
+.flexBox {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+}
+.content1,.content2,.content3,.content4,.content5 {
+    /* border:1px solid yellow; */
+    /* position: absolute; */
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 88px;
+    margin-top: 288px;
+    opacity: 0;
+    -webkit-opacity: 0;
+}
+.content1 {
+    transition: all 1s linear ;
+    -webkit-transition: all 1s linear ;
+}
+.content2 {
+    transition: all 1s linear .3s;
+    -webkit-transition: all 1s linear .3s;
+}
+.content3 {
+    margin-top: 270px;
+    transition: all 1s linear .6s;
+    -webkit-transition: all 1s linear .6s;
+}
+.content4 {
+    transition: all 1s linear .9s;
+    -webkit-transition: all 1s linear .9s;
+}
+.content5 {
+    transition: all 1s linear 1.2s;
+    -webkit-transition: all 1s linear 1.2s;
+}
+
+
+/* -----------------------------Data-management-flatform 数据管理平台 end--------------------- */
+
+
+/* ----------------------------------------------footer start------------------- */
+.footer {
+    height: 265px;
+    width: 100%;
+    background-image: url("../images/footer/footer-backgroundImage.png")
+}
+.footer-one {
+    font-size: 16px;
+    color: white;
+}
+.footer-one ul {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+}
+.footer-one ul li {
+    margin: 40px 15px;
+    color: white;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+.footer-one ul li:hover {
+    color: red;
+}
+.footer-two {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+.footer-logo {
+    margin: 45px auto;
+}
+.go-up {
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid red; */
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.go-up img {
+    width: 100%;
+    height: 100%;
+}

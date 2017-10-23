@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>官网首页</title>
+    <meta name="Keywords" content=""/>
+    <meta name="Description" content=""/>
+    <!-- title小图标 -->
+    <link rel="icon" href="./images/icon/1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/icon/1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/adianwo.css">
+    <script type="text/javascript">
+    	//平台、设备和操作系统 
+	    var system = { 
+	        win: false, 
+	        mac: false, 
+	        xll: false, 
+	        ipad:false 
+	    }; 
+	    //检测平台 
+	    var p = navigator.platform; 
+	    system.win = p.indexOf("Win") == 0; 
+	    system.mac = p.indexOf("Mac") == 0; 
+	    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0); 
+	    system.ipad = (navigator.userAgent.match(/iPad/i) != null)?true:false; 
+	    //跳转语句，如果是手机访问就自动跳转到手机页面 
+	    if (system.win || system.mac || system.xll||system.ipad) { 
+		
+	    } else { 
+	        window.location.href = "http://192.168.0.106:8030/guangxi/trunk/mboileWeb/index.html"; 
+	    } 
+    </script>
+</head>
+
+<body>
+
+    <!--logo start-->
+    <section class="firstBox-logo">
+        <div class="logo">
+            <img src="./images/logo/logo2.png" alt="">
+            <img src="./images/logo/logo1.png" alt="">
+        </div>
+    </section>
+    <!-- logo end -->
+
+    <!-- banner 轮播图 start -->
+    <section class="secondBox-banner">
+         <div class="slider">
+             <!-- 原始 -->
+             <!-- <ul class="slider-ul">
+                 <li class="slider-li"><img src="./images/banner/banner1.png" alt=""></li>
+                 <li class="slider-li"><img src="./images/banner/banner2.png" alt=""></li>
+                 <li class="slider-li"><img src="./images/banner/banner3.png" alt=""></li>
+             </ul> -->
+              <!-- 新 -->
+             <ul class="slider-ul">
+                    <li class="slider-li"><img src="./images/banner/banner1.png" alt=""></li>
+                    <li class="slider-li"><img src="./images/banner/banner2.png" alt=""></li>
+                    <li class="slider-li"><img src="./images/banner/banner3.png" alt=""></li>
+                </ul>
+
+             <ul class="slider-ul1">
+                 <li class="slider-li1"></li>
+                 <li class="slider-li1"></li>
+                 <li class="slider-li1"></li>
+             </ul>
+         </div>
+    </section>
+    <!-- banner 轮播图 end -->
+
+
+    <!-- big-data  大数据 start -->
+    <section class="thirdBox-bigDate">
+        <div class="bigDate">
+            <div class="up">
+                <h2>大数据-智慧广告</h2>
+                <h4>Big-Data</h4>
+                <div class="line"></div>
+                <p class="content">
+                    通过大数据的技术整合,做面向效果的智慧广告,每一次广告都是精准营销。 从传统营销转化为市场营销,数据云精确计算,实时把控,用只能解放人工劳动。
+                </p>
+            </div>
+            <div class="down">
+                <ul>
+                    <li class="li1 LI">
+                        <span>
+                            <img src="./images/bigData/bigDate1.png" alt="">
+                        </span>
+                        <h3>用户争夺升级为场景争夺</h3>
+                        <p>场景营销发展的核心为预测用户行为</p>
+                    </li>
+
+                    <li class="li2 LI">
+                        <span>
+                            <img src="./images/bigData/bigDate2.png" alt="">
+                        </span>
+                        <h3>需求与资源精准匹配</h3>
+                        <p>通过算法合理匹配资源,提升效能</p>
+                    </li>
+
+                    <li class="li3 LI">
+                        <span>
+                            <img src="./images/bigData/bigDate3.png" alt="">
+                        </span>
+                        <h3>数据管理价值提升</h3>
+                        <p>建立数据化运营体系</p>
+                    </li>
+
+                    <li class="li4 LI">
+                        <span>
+                            <img src="./images/bigData/bigDate4.png" alt="">
+                        </span>
+                        <h3>只能终将解放劳动力</h3>
+                        <p>人工智能,机器学习与深度学习</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- big-data 大数据 end -->
+
+
+    <!-- Platform advantage  平台优势  start -->
+    <section class="foruthBox-PlatformAdvantage">
+        <div class="bigDate PlatformAdvantage">
+            <div class="up">
+                <h2>平台优势</h2>
+                <h4>Adianwo Advantage</h4>
+                <div class="line"></div>
+                <p class="content">
+                    点沃拥有海量数据,开放API接口,透明投放全过程;策略自动存储,只能优化投放效果;真人语音数据,精准人群头像;日均广告请求达百亿次;拥有专属的数据营销平台。
+                </p>
+            </div>
+
+            <div class="PlatformAdvantage-down">
+                <ul>
+                    <li>
+                        <img src="./images/PlatformAdvantage/PlatformAdvantage1.png" alt="">
+                        <p class="info">海量移动数据</p>
+                    </li>
+                    <li>
+                        <img src="./images/PlatformAdvantage/PlatformAdvantage2.png" alt="">
+                        <p class="info">优质媒体资源</p>
+                    </li>
+                    <li>
+                        <img src="./images/PlatformAdvantage/PlatformAdvantage3.png" alt="">
+                        <p class="info">精准定向</p>
+                    </li>
+                    <li>
+                        <img src="./images/PlatformAdvantage/PlatformAdvantage4.png" alt="">
+                        <p class="info">自动优化</p>
+                    </li>
+                    <li>
+                        <img src="./images/PlatformAdvantage/PlatformAdvantage5.png" alt="">
+                        <p class="info">实时分析图表</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Platform advantage  平台优势  end -->
+
+
+    <!-- media platform  媒体联盟平台 start -->
+    <section class="fifth-mediaPlatform">
+            <div class="bigDate PlatformAdvantage">
+                    <div class="up">
+                        <h2>SSP聚合媒体联盟平台</h2>
+                        <h4>SSP converged media platform</h4>
+                        <div class="line"></div>
+                        <p class="content">
+                            服务于开发者和SSP的只能聚合平台,整合国内外多家广告平台SDK提供高效的流量变现服务,自动优化流量与广告请求匹配结果,全面提高开发者收益。
+                        </p>
+                    </div>
+               
+                    <div class="mediaPlatform-down">
+                         <img src="./images/mediaPlatform/mediaPlatform1.png" alt="" id="img">
+                         <div class="flexbox1"><p class="p1 P">原生广告</p></div>
+                         <div class="flexbox2"><p class="p2 P">视频广告</p></div>
+                         <div class="flexbox3"><p class="p3 P">横幅广告</p></div>
+                    </div>
+            </div>
+    </section>
+   <!-- media platform  媒体联盟平台 end -->
+   <!-- trading flatform 广告交易平台  start -->
+   <section class="tradingFlatform fatherContent">
+        <div class="bigDate">
+                <div class="up">
+                    <h2>ADX广告交易平台</h2>
+                    <h4>Advertising Trading Platform</h4>
+                    <div class="line"></div>
+                    <p class="content">
+                      一切业务数据化,通过数据认知,分析,精准营销,点沃广告交易平台一切数据透明化。
+                    </p>
+                </div>
+        
+
+                <div class="tradingFlatform-down">
+                      <div class="left">
+                            <img src="./images/tradingFlatform/tradingFlatform1.png" alt="" class="img1">
+                      </div>
+                      <div class="right">
+                          <p class="Content">ADX服务于主和DSP流量采买的程序化交易平台,基于海量媒体资源吗,提供实时竞价(RTB),程序化直投(PDB),私有交易市场(PMP)等多种交易方式。</p>
+                      </div>
+                </div>
+        </div>
+   </section>
+   <!-- trading flatform 广告交易平台  end -->
+
+
+   <!-- wechat-vertical-promotion 微信垂直推广 start -->
+   <section class="wechat-vertical-promotion">
+        <div class="bigDate PlatformAdvantage">
+            <div class="up">
+                <h2>微信垂直推广</h2>
+                <h4>Wechat Vertical Promotion</h4>
+                <div class="line"></div>
+                <p class="content">
+                点沃与各大知名微信营销推广平台达成深度合作,大量粉丝公众号,空间品牌推广
+                </p>
+            </div>
+            <div class="tradingFlatform-down wechat-vertical-promotion-down">
+                <div class="left wechat-vertical-promotion-left" >
+                    <h2 class="wechat-vertical-promotion-left-h2">懂媒体-更懂消费者</h2>
+                    <h3 class="wechat-vertical-promotion-left-h3">在这里,获取更合适的社会化经营方案</h3>
+                    <ul class="wechat-vertical-promotion-left-ul">
+                        <li class="wechat-vertical-promotion-left-li"><img src="./images/wechatVerticalPromotion/wechatVerticalPromotion2.png" alt="" class="wechat-vertical-promotion-left-li-img"><span class="wechat-vertical-promotion-left-li-span">让正确的内容</span></li>
+                        <li class="wechat-vertical-promotion-left-li"><img src="./images/wechatVerticalPromotion/wechatVerticalPromotion2.png" alt="" class="wechat-vertical-promotion-left-li-img"><span class="wechat-vertical-promotion-left-li-span">在正确的渠道</span></li>
+                        <li class="wechat-vertical-promotion-left-li"><img src="./images/wechatVerticalPromotion/wechatVerticalPromotion2.png" alt="" class="wechat-vertical-promotion-left-li-img"><span class="wechat-vertical-promotion-left-li-span">在正确的时间</span></li>
+                        <li class="wechat-vertical-promotion-left-li"><img src="./images/wechatVerticalPromotion/wechatVerticalPromotion2.png" alt="" class="wechat-vertical-promotion-left-li-img"><span class="wechat-vertical-promotion-left-li-span">出现在正确的消费者面前</span></li>
+                    </ul>
+                </div>
+                <div class="right wechat-vertical-promotion-right">
+                    <img src="./images/wechatVerticalPromotion/wechatVerticalPromotion1.png" alt="" class="wechat-vertical-promotion-right-img">
+                </div>
+            </div>
+        </div>
+   </section>
+<!-- trading flatform 广告交易平台  end -->
+
+
+<!-- Data management flatform 数据管理平台  start -->
+
+<section class="Data-management-flatform">
+        <div class="bigDate PlatformAdvantage">
+                <div class="up">
+                    <h2>DMP数据管理平台</h2>
+                    <h4>Data management flatform</h4>
+                    <div class="line"></div>
+                    <p class="content">
+                    专业的广告数据管理平台(DMP)-通过高效的数据分析以及管理能力,为用户的特点和需求贴上立体化标签并加以分类,只能优化广告投放效果
+                    </p>
+                </div>
+                
+
+                <div class="Data-management-flatform-down">
+                      <img src="./images/DataManagementFlatform/DataManagementFlatform1.png" alt="" class="Data-management-flatform-down-img1">
+                      <img src="./images/DataManagementFlatform/DataManagementFlatform2.png" alt="" class="Data-management-flatform-down-img2">
+                      <div class="flexBox">
+                            <p class="content1 c1">广告主</p>
+                            <p class="content2 c1">DSP</p>
+                            <p class="content3 c1">ADExchange</p>
+                            <p class="content4 c1">SSP</p>
+                            <p class="content5 c1">媒体</p>
+                      </div>
+                </div>
+            </div>
+</section>
+
+<!-- Data management flatform 数据管理平台  start -->
+
+<!-- footer start -->
+<section class="footer">
+   <div class="footer-one">
+       <ul>
+           <a href="#"><li>隐私政策</li></a>
+           <a href="#"><li>服务条款</li></a>
+           <a href="#"><li>关于我们</li></a>
+           <a href="#"><li>联系我们</li></a>
+       </ul>
+   </div>
+   <div class="footer-two">
+       <p>2017 &nbsp; 上海实沃杭州分公司 &nbsp; 点沃平台</p>
+   </div>
+   <div class="footer-three">
+       <img src="./images/footer/footer-logo.png" alt="" class="footer-logo">
+   </div>
+</section>
+<!-- footer end -->
+
+<section class="lastBox-go-up">
+    <div class="go-up">
+        <img src="./images/footer/go-up.png" alt="" class="lastImg">
+    </div>
+</section>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/adianwo.js"></script>
+</body>
+
+</html>
